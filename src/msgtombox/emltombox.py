@@ -81,3 +81,7 @@ if __name__ == "__main__":
     sys.stderr.write("Usage: ./emlToMbox.py input outbox.mbox\n")
     sys.exit(1)
   sys.exit(main(sys.argv))
+
+
+def add(a,b):
+  return a+b
